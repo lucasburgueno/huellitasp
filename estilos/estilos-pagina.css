@@ -143,6 +143,14 @@ body{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.contenedor-animal1 img{
+    filter: grayscale(100%);
+}
+.contenedor-animal1 img:hover{
+    filter:none;
+    transition: all 2s
+}
+
 .publicidades{
     display:flex;
     width: 100%;
