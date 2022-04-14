@@ -1,0 +1,14 @@
+.header {
+  background-color: aliceblue; }
+
+h1 {
+  color: red; }
+
+h2 {
+  font-size: 20px; }
+
+.main {
+  background-color: gold; }
+
+h2 {
+  display: block; }
