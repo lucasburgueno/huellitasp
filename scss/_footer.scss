@@ -1,0 +1,41 @@
+footer{
+    background-color: aqua;
+        .footer{
+            font-style: italic;
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: space-between;
+    }
+}
+
+.contenedor-redes-sociales{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    height: 50px;
+}
+.encabezado-de-redes-sociales{
+    display: flex;
+    align-content: center;
+    justify-content:space-between;
+}
+.redes-sociales{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.contenedor-sobre-nosotros{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}
+.contenedor-de-minimapa{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}
