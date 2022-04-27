@@ -1,0 +1,70 @@
+$contenedor:(
+    disp:flex,
+    direccion:column,
+    align:center,
+    just:center,
+);
+
+.contenedor-animal1{
+    display: map-get($contenedor, disp);
+    flex-direction: map-get($contenedor,direccion);
+    align-items: map-get($contenedor, align );
+    justify-items: map-get($contenedor, just );
+}
+.contenedor-animal2{
+    display: map-get($contenedor, disp);
+    flex-direction: map-get($contenedor,direccion);
+    align-items: map-get($contenedor, align );
+    justify-items: map-get($contenedor, just );
+}
+.contenedor-animal3{
+    display: map-get($contenedor, disp);
+    flex-direction: map-get($contenedor,direccion);
+    align-items: map-get($contenedor, align );
+    justify-items: map-get($contenedor, just );
+}
+.contenedor-animal4{
+    display: map-get($contenedor, disp);
+    flex-direction: map-get($contenedor,direccion);
+    align-items: map-get($contenedor, align );
+    justify-items: map-get($contenedor, just );
+}
+.contenedor-animal5{
+    display: map-get($contenedor, disp);
+    flex-direction: map-get($contenedor,direccion);
+    align-items: map-get($contenedor, align );
+    justify-items: map-get($contenedor, just );
+}
+.contenedor-animal6{
+    display: map-get($contenedor, disp);
+    flex-direction: map-get($contenedor,direccion);
+    align-items: map-get($contenedor, align );
+    justify-items: map-get($contenedor, just );
+}
+
+.botones{
+    width: 200px;
+    height: 50px;
+    background-color: whitesmoke;
+    text-align: center;
+    color: black;
+    border: 1px black;
+}
+.boton_donar{
+    @extend.botones;
+    width: 100px;
+    background-color: green;
+    color: yellow;
+}
+.boton_volver{
+    @extend.botones;
+    width: 100px;
+    background-color: red;
+}
+@mixin image-sizes ($width,$height){
+    height:$height;
+    width:$width;
+}
+.foto-del-perro4{
+    @include image-sizes(200px,150px )
+}

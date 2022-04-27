@@ -50,19 +50,19 @@ footer{
     margin-top: 10px;
     margin-right: 10px;
 }
-#youtube:hover{
+#youtubecon:hover{
+    transform: scale(1.1) !important;
+    
+}
+#tiktokcon:hover{
+    transform: scale(1.1) !important;
+    
+}
+#instagramcon:hover{
     transform: scale(1.1);
     
 }
-#tiktok:hover{
-    transform: scale(1.1);
-    
-}
-#instagram:hover{
-    transform: scale(1.1);
-    
-}
-#facebook:hover{
+#facebookcon:hover{
     transform: scale(1.1);
     
 }

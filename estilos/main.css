@@ -1,3 +1,60 @@
+.contenedor-animal1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center; }
+
+.contenedor-animal2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center; }
+
+.contenedor-animal3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center; }
+
+.contenedor-animal4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center; }
+
+.contenedor-animal5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center; }
+
+.contenedor-animal6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center; }
+
+.botones, .boton_donar, .boton_volver {
+  width: 200px;
+  height: 50px;
+  background-color: whitesmoke;
+  text-align: center;
+  color: black;
+  border: 1px black; }
+
+.boton_donar {
+  width: 100px;
+  background-color: green;
+  color: yellow; }
+
+.boton_volver {
+  width: 100px;
+  background-color: red; }
+
+.foto-del-perro4 {
+  height: 150px;
+  width: 200px; }
+
 .contenedor-de-animal1-y-2 {
   display: flex;
   flex-direction: column; }
@@ -37,12 +94,6 @@
   flex-direction: row;
   align-items: center; }
 
-.contenedor-animal1 {
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-  justify-content: center; }
-
 .foto-del-perro1 {
   display: flex;
   margin: 5px 10px 12px 15px;
@@ -59,12 +110,6 @@
   justify-content: center;
   margin-top: 0px;
   margin-bottom: 0px; }
-
-.contenedor-animal2 {
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-  justify-content: center; }
 
 .foto-del-perro2 {
   display: flex;
@@ -83,12 +128,6 @@
   margin-top: 0px;
   margin-bottom: 0px; }
 
-.contenedor-animal3 {
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-  justify-content: center; }
-
 .foto-del-gato1 {
   display: flex;
   margin: 5px 10px 12px 15px;
@@ -105,12 +144,6 @@
   justify-content: center;
   margin-top: 0px;
   margin-bottom: 0px; }
-
-.contenedor-animal4 {
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-  justify-content: center; }
 
 .foto-del-gato2 {
   display: flex;
@@ -129,12 +162,6 @@
   margin-top: 0px;
   margin-bottom: 0px; }
 
-.contenedor-animal5 {
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-  justify-content: center; }
-
 .foto-del-perro3 {
   display: flex;
   margin: 5px 10px 12px 15px;
@@ -152,18 +179,10 @@
   margin-top: 0px;
   margin-bottom: 0px; }
 
-.contenedor-animal6 {
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-  justify-content: center; }
-
 .foto-del-perro4 {
   display: flex;
   margin: 5px 10px 12px 15px;
-  height: 150px;
   border-top: solid 5px gray;
-  width: 200px;
   border-right: solid 5px gray;
   border-bottom: solid 5px gray;
   border-left: solid 5px gray; }
@@ -235,16 +254,16 @@ footer {
   margin-top: 10px;
   margin-right: 10px; }
 
-#youtube:hover {
+#youtubecon:hover {
+  transform: scale(1.1) !important; }
+
+#tiktokcon:hover {
+  transform: scale(1.1) !important; }
+
+#instagramcon:hover {
   transform: scale(1.1); }
 
-#tiktok:hover {
-  transform: scale(1.1); }
-
-#instagram:hover {
-  transform: scale(1.1); }
-
-#facebook:hover {
+#facebookcon:hover {
   transform: scale(1.1); }
 
 .contenedor-sobre-nosotros {
