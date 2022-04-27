@@ -7,6 +7,7 @@ footer{
             flex-direction: row;
             align-content: center;
             justify-content: space-between;
+            margin-top: 20px;
     }
 }
 
@@ -22,10 +23,48 @@ footer{
     align-content: center;
     justify-content:space-between;
 }
-.redes-sociales{
+.redes__sociales{
     display: flex;
+    flex-direction: column;
     align-content: center;
-    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#instagram{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#tiktok{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#facebook{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#youtube{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#youtube:hover{
+    transform: scale(1.1);
+    
+}
+#tiktok:hover{
+    transform: scale(1.1);
+    
+}
+#instagram:hover{
+    transform: scale(1.1);
+    
+}
+#facebook:hover{
+    transform: scale(1.1);
+    
 }
 .contenedor-sobre-nosotros{
     display:flex;

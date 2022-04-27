@@ -1,19 +1,25 @@
 .contenedor-de-animal1-y-2 {
   display: flex;
-  flex-direction: row; }
+  flex-direction: column; }
 
 .contenedor-de-animal3-y-4 {
   display: flex;
+  flex-direction: column; }
+
+.contenedor-de-animal5-y-6 {
+  display: flex;
+  flex-direction: column; }
+
+.dropdown {
+  background-image: url(../imagenes/fondo-huellas.jpg);
+  width: 100%;
+  display: flex;
   flex-direction: row; }
 
-.navegador {
-  display: flex;
-  background-image: url(../imagenes/nav-img.jpg);
-  height: 50px;
-  width: 1000px;
-  padding-top: 285px;
-  background-repeat: no-repeat;
-  margin-left: 500px; }
+.btn-secondary {
+  color: whitesmoke !important;
+  background-color: #41464b !important;
+  border-color: #6c757d !important; }
 
 .menu {
   display: flex;
@@ -28,7 +34,6 @@
 
 .contenedor__de__animales {
   display: flex;
-  width: 100%;
   flex-direction: row;
   align-items: center; }
 
@@ -124,37 +129,54 @@
   margin-top: 0px;
   margin-bottom: 0px; }
 
-.contenedor-animal1 img {
-  filter: grayscale(100%); }
+.contenedor-animal5 {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center; }
 
-.contenedor-animal1 img:hover {
-  filter: none;
-  transition: all 2s; }
+.foto-del-perro3 {
+  display: flex;
+  margin: 5px 10px 12px 15px;
+  height: 150px;
+  width: 200px;
+  border-top: solid 5px gray;
+  border-right: solid 5px gray;
+  border-bottom: solid 5px gray;
+  border-left: solid 5px gray; }
 
-.contenedor-animal2 img {
-  filter: grayscale(100%); }
+.nombre-del-perro3 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px; }
 
-.contenedor-animal2 img:hover {
-  filter: none;
-  transition: all 2s; }
+.contenedor-animal6 {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center; }
 
-.contenedor-animal3 img {
-  filter: grayscale(100%); }
+.foto-del-perro4 {
+  display: flex;
+  margin: 5px 10px 12px 15px;
+  height: 150px;
+  border-top: solid 5px gray;
+  width: 200px;
+  border-right: solid 5px gray;
+  border-bottom: solid 5px gray;
+  border-left: solid 5px gray; }
 
-.contenedor-animal3 img:hover {
-  filter: none;
-  transition: all 2s; }
-
-.contenedor-animal4 img {
-  filter: grayscale(100%); }
-
-.contenedor-animal4 img:hover {
-  filter: none;
-  transition: all 2s; }
+.nombre-del-perro4 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px; }
 
 .publicidades {
   display: flex;
-  width: 100%;
   flex-direction: row;
   align-items: center; }
   .publicidades .publicidad1 {
@@ -171,7 +193,8 @@ footer {
     display: flex;
     flex-direction: row;
     align-content: center;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-top: 20px; }
 
 .contenedor-redes-sociales {
   display: flex;
@@ -185,10 +208,44 @@ footer {
   align-content: center;
   justify-content: space-between; }
 
-.redes-sociales {
+.redes__sociales {
   display: flex;
+  flex-direction: column;
   align-content: center;
-  justify-content: space-between; }
+  justify-content: center;
+  margin-bottom: 10px; }
+
+#instagram {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 10px; }
+
+#tiktok {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 10px; }
+
+#facebook {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 10px; }
+
+#youtube {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 10px; }
+
+#youtube:hover {
+  transform: scale(1.1); }
+
+#tiktok:hover {
+  transform: scale(1.1); }
+
+#instagram:hover {
+  transform: scale(1.1); }
+
+#facebook:hover {
+  transform: scale(1.1); }
 
 .contenedor-sobre-nosotros {
   display: flex;
@@ -211,15 +268,27 @@ body {
       color: black !important; }
 
 .header {
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row; }
+
+.redes-sociales-nav {
+  display: flex;
+  flex-direction: row; }
 
 @media (max-width: 768px) {
+  .contenedor__de__animales {
+    display: flex;
+    flex-direction: column; }
   .contenedor-de-animal1-y-2 {
     display: flex;
-    flex-direction: column; }
+    flex-direction: row; }
   .contenedor-de-animal3-y-4 {
     display: flex;
-    flex-direction: column; }
+    flex-direction: row; }
+  .contenedor-de-animal5-y-6 {
+    display: flex;
+    flex-direction: row; }
   .navegador {
     display: flex;
     margin-left: 0 !important; }
@@ -228,6 +297,15 @@ body {
 
 @media (max-width: 480px) {
   .contenedor__de__animales {
+    display: flex;
+    flex-direction: column; }
+  .contenedor-de-animal1-y-2 {
+    display: flex;
+    flex-direction: column; }
+  .contenedor-de-animal3-y-4 {
+    display: flex;
+    flex-direction: column; }
+  .contenedor-de-animal5-y-6 {
     display: flex;
     flex-direction: column; }
   #publicidad1 {
