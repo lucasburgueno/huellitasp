@@ -1,4 +1,26 @@
-#consulta {
-    width: 100px;
-    height: 100px;
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+}
+.nombre{
+    width: 250px;
+    margin-bottom: 10px;
+}
+.mail{
+    width:350px;
+    margin-bottom: 10px;
+}
+.consulta{
+    width:350px;
+    margin-bottom: 10px;
+}
+.localidad{
+    width:250px;
+    margin-bottom: 10px;
+}
+.boton-enviar{
+    @extend .botones;
+    width:100px;
+    background-color: gray;
 }

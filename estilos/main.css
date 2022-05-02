@@ -34,7 +34,7 @@
   align-items: center;
   justify-items: center; }
 
-.botones, .boton_donar, .boton_volver {
+.botones, .boton_donar, .boton_volver, .boton-enviar {
   width: 200px;
   height: 50px;
   background-color: whitesmoke;
@@ -204,16 +204,14 @@
     display: flex;
     flex-direction: row; }
 
-footer {
-  background-color: aqua; }
-  footer .footer {
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: space-between;
-    margin-top: 20px; }
+footer .footer {
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  margin-top: 20px; }
 
 .contenedor-redes-sociales {
   display: flex;
@@ -278,6 +276,64 @@ footer {
   align-content: center;
   justify-content: space-between; }
 
+.contacto {
+  display: flex;
+  flex-direction: column; }
+
+.nombre {
+  width: 250px;
+  margin-bottom: 10px; }
+
+.mail {
+  width: 350px;
+  margin-bottom: 10px; }
+
+.consulta {
+  width: 350px;
+  margin-bottom: 10px; }
+
+.localidad {
+  width: 250px;
+  margin-bottom: 10px; }
+
+.boton-enviar {
+  width: 100px;
+  background-color: gray; }
+
+.donaciones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center; }
+
+.encabezado_donaciones {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center; }
+
+#paw {
+  margin-left: 10px; }
+
+.logo-mercado-pago, .logo-correo-argentino, .logo-oca {
+  width: 100px;
+  height: 100px; }
+
+.correos {
+  display: flex;
+  flex-direction: row; }
+
+.logo-andreani {
+  width: 200px;
+  height: 100px; }
+
+.historia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
 body {
   background-color: whitesmoke !important; }
   body ul {
@@ -287,13 +343,27 @@ body {
       color: black !important; }
 
 .header {
-  margin-bottom: 50px;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  position: fixed;
+  height: 100px;
+  width: 100%; }
+
+.logo {
+  margin-left: 550px;
+  margin-right: 550px;
+  display: flex; }
+
+.imagen-logo {
+  height: 100px;
+  width: 500px; }
 
 .redes-sociales-nav {
   display: flex;
   flex-direction: row; }
+
+.caja {
+  height: 900px; }
 
 @media (max-width: 768px) {
   .contenedor__de__animales {

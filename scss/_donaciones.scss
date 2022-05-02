@@ -1,0 +1,35 @@
+.donaciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+.encabezado_donaciones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+
+#paw{
+    margin-left: 10px;
+}
+.logo-mercado-pago{
+    width: 100px;
+    height: 100px;
+}
+.correos{
+    display: flex;
+    flex-direction: row;
+}
+.logo-correo-argentino{
+    @extend .logo-mercado-pago;
+}
+.logo-oca{
+    @extend .logo-mercado-pago;
+}
+.logo-andreani{
+    width: 200px;
+    height: 100px;
+}

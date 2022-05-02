@@ -1,6 +1,9 @@
 @import "variable";
 @import  "imagenes";
 @import "footer";
+@import "contacto";
+@import"donaciones";
+@import"formulario";
 body{
     background-color:whitesmoke !important;
         ul {
@@ -13,15 +16,29 @@ body{
 }
 
 .header{
-    margin-bottom: 50px;
     display: flex;
     flex-direction: row;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    
+}
+.logo{
+    margin-left: 550px;
+    margin-right: 550px;
+    display:flex;
+}
+.imagen-logo{
+    height: 100px;
+    width: 500px;
 }
 .redes-sociales-nav{
     display: flex;
     flex-direction: row;
 }
-
+.caja{
+    height: 900px;
+}
 @media (max-width:768px){
     .contenedor__de__animales{
         display: flex;
