@@ -39,6 +39,9 @@ body{
 .caja{
     height: 900px;
 }
+#caja{
+    height: 1000px;
+}
 @media (max-width:768px){
     .contenedor__de__animales{
         display: flex;
@@ -63,7 +66,41 @@ body{
     .contenedor-redes-sociales{
         margin-right: 20px;
     }
+    #publicidad1{
+        display:none;
     }
+    .contenedor-redes-sociales{
+        margin-right: 20px;
+        display: block;}
+    .header{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        height: 100px;
+        width: 100%;
+        align-content: space-between;    
+        justify-content: space-between;
+    }
+    .logo{
+        display:flex;
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+    .imagen-logo{
+        height: 100px;
+        width: 350px;
+    }
+    .redes-sociales-nav{
+        display: flex;
+        flex-direction: row;
+    }
+    .caja{
+        height: 1400px;
+    }
+    #caja{
+        height: 1300px;
+}
+}
 
 @media  (max-width:480px){
     .contenedor__de__animales{
@@ -85,7 +122,38 @@ body{
     #publicidad1{
         display:none;
     }
+    #publicidad2{
+        display:none;
+    }
     .contenedor-redes-sociales{
         margin-right: 20px;
         display: block;}
+    .header{
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        height: 100px;
+        width: 100%;
+        align-content: space-between;    
+        justify-content: space-between;
+    }
+    .logo{
+        display:flex;
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    .imagen-logo{
+        height: 100px;
+        width: 200px;
+    }
+    .redes-sociales-nav{
+        display: flex;
+        flex-direction: row;
+    }
+    .caja{
+        height: 1400px;
+    }
+    #caja{
+        height: 1300px;
+}
 }
