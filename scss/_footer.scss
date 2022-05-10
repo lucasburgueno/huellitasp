@@ -3,6 +3,8 @@ footer{
         .footer{
             font-style: italic;
             font-family: 'Times New Roman', Times, serif;
+            color: white;
+            background-color: black;
             display: flex;
             flex-direction: row;
             align-content: center;
@@ -52,6 +54,18 @@ footer{
     margin-top: 10px;
     margin-right: 10px;
 }
+#instagramcon{
+    color: white;
+}
+#tiktokcon{
+    color: white;
+}
+#facebookcon{
+    color: white;
+}
+#youtubecon{
+    color: white;
+}
 #youtubecon:hover{
     transform: scale(1.1) !important;
     
@@ -65,6 +79,22 @@ footer{
     
 }
 #facebookcon:hover{
+    transform: scale(1.1);
+    
+}
+#youtubecon2:hover{
+    transform: scale(1.1) !important;
+    
+}
+#tiktokcon2:hover{
+    transform: scale(1.1) !important;
+    
+}
+#instagramcon2:hover{
+    transform: scale(1.1);
+    
+}
+#facebookcon2:hover{
     transform: scale(1.1);
     
 }
