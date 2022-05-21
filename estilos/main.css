@@ -67,6 +67,10 @@
   display: flex;
   flex-direction: column; }
 
+.contenedor-de-animal7-y-8 {
+  display: flex;
+  flex-direction: column; }
+
 .dropdown {
   background-image: url(../imagenes/fondo-huellas.jpg);
   width: 100%;
@@ -194,13 +198,183 @@
   margin-top: 0px;
   margin-bottom: 0px; }
 
+.foto-del-gato3 {
+  display: flex;
+  margin: 5px 10px 12px 15px;
+  height: 150px;
+  width: 200px;
+  border-top: solid 5px gray;
+  border-right: solid 5px gray;
+  border-bottom: solid 5px gray;
+  border-left: solid 5px gray; }
+
+.nombre-del-gato3 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.foto-del-gato4 {
+  display: flex;
+  margin: 5px 10px 12px 15px;
+  height: 150px;
+  width: 200px;
+  border-top: solid 5px gray;
+  border-right: solid 5px gray;
+  border-bottom: solid 5px gray;
+  border-left: solid 5px gray; }
+
+.nombre-del-gato4 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.foto-del-gato5 {
+  display: flex;
+  margin: 5px 10px 12px 15px;
+  height: 150px;
+  width: 200px;
+  border-top: solid 5px gray;
+  border-right: solid 5px gray;
+  border-bottom: solid 5px gray;
+  border-left: solid 5px gray; }
+
+.nombre-del-gato5 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.foto-del-gato6 {
+  display: flex;
+  margin: 5px 10px 12px 15px;
+  height: 150px;
+  width: 200px;
+  border-top: solid 5px gray;
+  border-right: solid 5px gray;
+  border-bottom: solid 5px gray;
+  border-left: solid 5px gray; }
+
+.nombre-del-gato6 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.foto-del-gato7 {
+  display: flex;
+  margin: 5px 10px 12px 15px;
+  height: 150px;
+  width: 200px;
+  border-top: solid 5px gray;
+  border-right: solid 5px gray;
+  border-bottom: solid 5px gray;
+  border-left: solid 5px gray; }
+
+.nombre-del-gato7 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.foto-del-gato8 {
+  display: flex;
+  margin: 5px 10px 12px 15px;
+  height: 150px;
+  width: 200px;
+  border-top: solid 5px gray;
+  border-right: solid 5px gray;
+  border-bottom: solid 5px gray;
+  border-left: solid 5px gray; }
+
+.nombre-del-gato8 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.foto-del-perro5 {
+  display: flex;
+  margin: 5px 10px 12px 15px;
+  height: 150px;
+  width: 200px;
+  border-top: solid 5px gray;
+  border-right: solid 5px gray;
+  border-bottom: solid 5px gray;
+  border-left: solid 5px gray; }
+
+.nombre-del-perro5 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.foto-del-perro6 {
+  display: flex;
+  margin: 5px 10px 12px 15px;
+  height: 150px;
+  width: 200px;
+  border-top: solid 5px gray;
+  border-right: solid 5px gray;
+  border-bottom: solid 5px gray;
+  border-left: solid 5px gray; }
+
+.nombre-del-perro6 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.foto-del-perro7 {
+  display: flex;
+  margin: 5px 10px 12px 15px;
+  height: 150px;
+  width: 200px;
+  border-top: solid 5px gray;
+  border-right: solid 5px gray;
+  border-bottom: solid 5px gray;
+  border-left: solid 5px gray; }
+
+.nombre-del-perro7 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.foto-del-perro8 {
+  display: flex;
+  margin: 5px 10px 12px 15px;
+  height: 150px;
+  width: 200px;
+  border-top: solid 5px gray;
+  border-right: solid 5px gray;
+  border-bottom: solid 5px gray;
+  border-left: solid 5px gray; }
+
+.nombre-del-perro8 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
 .publicidades {
   display: flex;
   flex-direction: row;
-  align-items: center; }
+  align-items: center;
+  width: 300px;
+  height: 600px; }
   .publicidades .publicidad1 {
-    width: 250px;
-    height: 500px;
     display: flex;
     flex-direction: row; }
 
@@ -393,6 +567,14 @@ body {
   display: flex;
   flex-direction: row; }
 
+.carousel-item {
+  width: 300px;
+  height: 400px; }
+
+.publi {
+  width: 300px;
+  height: 400px; }
+
 .caja {
   height: 900px; }
 
@@ -400,6 +582,8 @@ body {
   height: 1000px; }
 
 @media (max-width: 768px) {
+  .imagen-logo-mobile {
+    display: none; }
   .contenedor__de__animales {
     display: flex;
     flex-direction: column; }
@@ -446,6 +630,17 @@ body {
     height: 1300px; } }
 
 @media (max-width: 480px) {
+  .imagen-logo {
+    display: none; }
+  .imagen-logo-mobile {
+    height: 100px;
+    width: 100px; }
+  .logo-mobile {
+    visibility: visible;
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-right: 50px; }
   .contenedor__de__animales {
     display: flex;
     flex-direction: column; }
@@ -486,7 +681,11 @@ body {
   .caja {
     height: 1400px; }
   #caja {
-    height: 1300px; } }
+    height: 1300px; }
+  .contenedor-de-minimapa {
+    display: none; }
+  .footer {
+    height: 300px; } }
 
 @media (max-width: 365px) {
   .imagen-logo {
